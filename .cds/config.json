@@ -1,3 +1,11 @@
 {
-  "profile": "/home/ronald/Projects/VBN-Pilot/profiles/local-dagster-postgres-superset/profile.yaml"
+  "profile": "/home/ronald/Projects/VBN-Pilot/profiles/local-dagster-postgres-superset/profile.yaml",
+  "environment": "dev",
+  "security": {
+    "strict": true
+  },
+  "image": {
+    "source": "registry"
+  },
+  "target": "compose"
 }
